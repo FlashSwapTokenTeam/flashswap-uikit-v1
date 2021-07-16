@@ -816,7 +816,7 @@ var style = (_a = {},
         fontSize: "20px",
     },
     _a[sizes$1.XL] = {
-        fontSize: "22px",
+        fontSize: "27px",
     },
     _a[sizes$1.XXL] = {
         fontSize: "34px",
