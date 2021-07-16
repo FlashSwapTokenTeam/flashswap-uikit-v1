@@ -2,6 +2,7 @@ import { Colors } from "./types";
 export declare const baseColors: {
     failure: string;
     primary: string;
+    primaryText: string;
     primaryBright: string;
     primaryDark: string;
     secondary: string;
