@@ -70,15 +70,15 @@ const ResetCSS = createGlobalStyle`
   }
   /* Scrollbar */
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 3px;
   }
   ::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme.colors.textSubtle}; 
-    border-radius: 8px;
+    border-radius: 3px;
   }
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
-    border-radius: 10px;
+    border-radius: 3px;
   }
 `;
 
