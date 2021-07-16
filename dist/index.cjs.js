@@ -810,16 +810,16 @@ var sizes$1 = {
 var _a;
 var style = (_a = {},
     _a[sizes$1.MD] = {
-        fontSize: "8px",
+        fontSize: "18px",
     },
     _a[sizes$1.LG] = {
-        fontSize: "10px",
+        fontSize: "20px",
     },
     _a[sizes$1.XL] = {
-        fontSize: "12px",
+        fontSize: "22px",
     },
     _a[sizes$1.XXL] = {
-        fontSize: "24px",
+        fontSize: "34px",
     },
     _a);
 var Heading = styled__default['default'](Text).attrs({ bold: true })(templateObject_1$g || (templateObject_1$g = __makeTemplateObject(["\n  ", "\n  font-weight:300;\n  line-height: 1.1;\n"], ["\n  ", "\n  font-weight:300;\n  line-height: 1.1;\n"])), function (_a) {
