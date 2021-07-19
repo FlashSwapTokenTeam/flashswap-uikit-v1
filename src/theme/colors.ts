@@ -2,10 +2,13 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#bc191d",
+  primary: "linear-gradient(90.32deg, #84080b 2.5%, #bc191d 99.8%)",
+  primaryText: "#bc191d",
   primaryBright: "#bc191d",
   primaryDark: "#bc191d",
   secondary: "#bc191d",
+  yellow: "#fbe744",
+  white: "#FFF",
   success: "#31D0AA",
   warning: "#FFB237",
 };

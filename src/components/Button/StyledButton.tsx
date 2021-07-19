@@ -19,7 +19,7 @@ const getDisabledStyles = ({ isLoading, theme }: ThemedProps) => {
   return `
     &:disabled,
     &.button--disabled {
-      background-color: ${theme.colors.backgroundDisabled};
+      background: ${theme.colors.backgroundDisabled};
       border-color: ${theme.colors.backgroundDisabled};
       box-shadow: none;
       color: ${theme.colors.textDisabled};
@@ -47,16 +47,16 @@ const getButtonVariantProp = (prop: keyof ButtonThemeVariant) => ({
 
 const StyledButton = styled.button<ButtonProps>`
   align-items: center;
-  background-color: ${getButtonVariantProp("background")};
+  background: ${getButtonVariantProp("background")};
   border: ${getButtonVariantProp("border")};
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: ${getButtonVariantProp("boxShadow")};
   color: ${getButtonVariantProp("color")};
   cursor: pointer;
   display: inline-flex;
   font-family: inherit;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 300;
   /* max-content instead of auto for Safari fix */
   width: ${({ fullWidth }) => (fullWidth ? "100%" : "max-content")};
   height: ${({ size }) => (size === "sm" ? "32px" : "48px")};

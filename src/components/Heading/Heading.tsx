@@ -4,22 +4,25 @@ import { tags, sizes, HeadingProps } from "./types";
 
 const style = {
   [sizes.MD]: {
-    fontSize: "20px",
+    fontSize: "18px",
   },
   [sizes.LG]: {
-    fontSize: "24px",
+    fontSize: "20px",
   },
   [sizes.XL]: {
-    fontSize: "40px",
+    fontSize: "27px",
+  },
+  [sizes.XLH]: {
+    fontSize: "53px",
   },
   [sizes.XXL]: {
-    fontSize: "64px",
+    fontSize: "34px",
   },
 };
 
 const Heading = styled(Text).attrs({ bold: true })<HeadingProps>`
   ${({ size }) => style[size || sizes.MD]}
-  font-weight:600;
+  font-weight:300;
   line-height: 1.1;
 `;
 
