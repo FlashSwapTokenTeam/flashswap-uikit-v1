@@ -6,6 +6,7 @@ export declare const baseColors: {
     primaryBright: string;
     primaryDark: string;
     secondary: string;
+    yellow: string;
     success: string;
     warning: string;
 };
