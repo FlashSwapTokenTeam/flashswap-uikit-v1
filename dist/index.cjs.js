@@ -805,6 +805,7 @@ var sizes$1 = {
     LG: "lg",
     XL: "xl",
     XXL: "xxl",
+    XLH: "xlh"
 };
 
 var _a;
@@ -817,6 +818,9 @@ var style = (_a = {},
     },
     _a[sizes$1.XL] = {
         fontSize: "27px",
+    },
+    _a[sizes$1.XLH] = {
+        fontSize: "53px",
     },
     _a[sizes$1.XXL] = {
         fontSize: "34px",

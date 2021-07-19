@@ -12,6 +12,9 @@ const style = {
   [sizes.XL]: {
     fontSize: "27px",
   },
+  [sizes.XLH]: {
+    fontSize: "53px",
+  },
   [sizes.XXL]: {
     fontSize: "34px",
   },
